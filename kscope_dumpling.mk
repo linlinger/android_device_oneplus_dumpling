@@ -24,6 +24,10 @@ $(call inherit-product, device/oneplus/dumpling/device.mk)
 # Inherit some common Kaleidoscope stuff.
 $(call inherit-product, vendor/kscope/target/product/mobile.mk)
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2160
+TARGET_SCREEN_WIDTH := 1080
+
 PRODUCT_NAME := kscope_dumpling
 PRODUCT_DEVICE := dumpling
 PRODUCT_MANUFACTURER := OnePlus
