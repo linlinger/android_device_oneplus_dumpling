@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/kscope-dumpling.mk
+    $(LOCAL_DIR)/kscope_dumpling.mk
 
 COMMON_LUNCH_CHOICES := \
     kscope-dumpling-user \
