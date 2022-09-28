@@ -27,7 +27,7 @@ $(call inherit-product, vendor/oneplus/dumpling/dumpling-vendor.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-lineage
+    $(LOCAL_PATH)/overlay-kscope
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -50,10 +50,6 @@ PRODUCT_PACKAGES += \
 # Keylayouts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gf_input.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gf_input.kl
-
-# Touch
-PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.oneplus
 
 # Wifi
 PRODUCT_PACKAGES += \
